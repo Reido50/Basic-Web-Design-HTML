@@ -1,0 +1,36 @@
+div.title{
+    float:top; 
+    position:relative;  
+    right:10px; 
+    background-color:darkgreen;
+    color:azure;
+    height:100px;
+}
+
+p.title{
+    padding:20px;
+    font-size:50px;
+}
+
+div.step{
+    overflow:auto;
+}
+
+img.step{
+    float:left; 
+    padding:10px;
+}
+
+p.step{
+    float:left;
+    font-size:50px;
+    color: darkgreen;
+}
+
+p{
+    font-size:30px;
+}
+
+iframe{
+    margin:auto;
+}
