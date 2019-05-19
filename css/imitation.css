@@ -1,0 +1,11 @@
+.penguin{
+    background-image: url('documents/Imitation/penguins.jpg');
+    height: 400px;
+    width: 400px;
+    /*
+    border-radius: 125;
+    -webkit-filter:sepia(100%);
+    filter:sepia(100%);
+    background-size:450 auto, auto 300;
+    */
+}
