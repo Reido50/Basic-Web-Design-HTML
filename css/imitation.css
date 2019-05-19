@@ -1,5 +1,5 @@
 .penguin{
-    background-image: url('documents/Imitation/penguins.jpg');
+    background-image: url(documents/Imitation/penguins.jpg);
     height: 400px;
     width: 400px;
     /*

@@ -7,10 +7,82 @@
     <link rel="stylesheet" type="text/css" href="css/imitation.css">
 </head>
 
-<body>
-    <div class="penguin">
-        div with b
-    </div>
+<style>
+    div{
+        margin:50px;
+    }
 
+    .penguin{
+        background-image: url('documents/Imitation/penguins.jpg');
+        height: 300px;
+        width: 450px;
+        border: solid;
+        border-radius: 225px/150px;
+        -webkit-filter:sepia(100%);
+    }
+
+    .football{
+        border: solid 50px #FFFFFF;
+        border-image: url('documents/Imitation/tic-tac-toe.png') 50 round;
+        background-image: url('documents/Imitation/football_field.jpg');
+        background-repeat: no-repeat;
+        height: 230px;
+        width: 500px;
+        -webkit-filter:grayscale(100%);
+    }
+
+    .dino{
+        background-image: url('documents/Imitation/dinosaur.png');
+        background-repeat: no-repeat;
+        height: 482px;
+        width: 455px;
+        -webkit-filter:hue-rotate(90deg) drop-shadow(10px 5px 5px #000000);
+    }
+
+    .seagull{
+        background: linear-gradient(160deg, blue, white);
+        box-shadow:0px 10px 1px grey;
+        height: 400px;
+        width: 600px;
+    }
+
+    .butterfly{
+        background-image: url('documents/Imitation/butterfly.jpg');
+        height: 243px;
+        width: 400px;
+        border:transparent;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        -webkit-filter:invert(100%);
+    }
+
+    .theaterBack{
+        background-image: url('documents/Imitation/theater_stage.jpg');
+        height: 352px;
+        width: 400px;
+        -webkit-filter:blur(5px);
+        z-index: -1;
+    }
+
+    .theaterFore{
+        -webkit-filter:blur(0px);
+        text-align: center;
+        vertical-align: center;
+        font-size: 40px;
+        color:#FFFFFF;
+        text-shadow:0px 5px 1px black;
+        z-index: 0;
+    }
+</style>
+
+<body>
+    <div class="penguin"></div>
+    <div class="football"></div>
+    <div class="dino"></div>
+    <div class="seagull">
+        <img src="documents/Imitation/seagull.png" alt="picture of seagull">
+    </div>
+    <div class="butterfly"></div>
+    <div class="theaterBack"><div class="theaterFore">Presenting</div></div>
 </body>
 </html>
