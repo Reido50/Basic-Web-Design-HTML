@@ -1,0 +1,44 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr.holeNumber{
+    background-color: lightgreen;
+    font-weight: 800;
+    font-size: 14;
+}
+
+tr.holePar{
+    background-color: lightblue;
+    font-weight: 400;
+}
+
+tr.holeDistance{
+    background-color: yellow;
+    font-weight: 400;
+}
+
+tr{
+    color: black;
+    font-size: 12;
+}
+
+tr.scores:nth-of-type(odd){
+    background-color: lightgray;
+}
+
+td.name{
+    text-align: left;
+    font-style: italic;
+}
+
+td.final{
+    font-weight: 400;
+    color: darkslateblue;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
